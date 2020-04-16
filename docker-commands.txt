@@ -1,0 +1,4 @@
+list containers: docker container ls -a
+build image: docker build --tag my-python-app .
+run docker: docker run --name python-app my-python-app
+remove all stopped containers: docker system prune
